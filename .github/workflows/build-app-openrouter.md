@@ -10,8 +10,8 @@ permissions:
 engine:
   id: codex
   model: openai/gpt-4o
+  api-target: openrouter.ai
   env:
-    OPENAI_BASE_URL: "https://openrouter.ai/api/v1"
     OPENAI_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
 
 network:
