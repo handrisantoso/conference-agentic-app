@@ -9,7 +9,7 @@ permissions:
 
 engine:
   id: codex
-  model: openai/gpt-4o
+  model: deepseek/deepseek-v4-pro
   api-target: openrouter.ai
   env:
     OPENAI_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
